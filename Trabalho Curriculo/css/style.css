@@ -1,0 +1,92 @@
+.blocolado{
+    display: inline-block;
+    margin-right: 12px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.imagem {
+    width: 20px;
+    height: auto;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.texto:hover {
+    color: blue;
+    transition: color 0.5s;
+}
+
+.texto2:hover{
+    color: red;
+    transition: color 0.5s;
+}
+
+.center{
+    text-align: center;
+}
+
+.margem{
+    padding-left: 3%;
+}
+
+body{
+    font-family: "Times New Roman", serif;
+    font-size: 16pt;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    border: 2px solid;
+    background-color: black;
+}
+
+header a{
+    text-decoration: none
+}
+
+header div ul li{
+    display: inline;
+    padding-right: 10px;
+}
+
+header div ul li a{
+    color: white;
+}
+
+section{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+footer div a{
+    display: inline;
+    color: white;
+    padding-right: 20px;
+}
+
+footer{
+    background-color: black;
+    border: 0px solid;
+    font-size: 20px;
+}
+
+footer h4{
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    margin-bottom: 12px;
+}
